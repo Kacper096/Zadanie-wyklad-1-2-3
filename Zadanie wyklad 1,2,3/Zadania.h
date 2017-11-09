@@ -10,3 +10,6 @@ void Zadanie_5_c();
 void Zadanie_6_a();
 void Zadanie_6_b();
 int Zadanie_7();
+int Zadanie_8();
+void Zadanie_9();
+void Zadanie_10();
