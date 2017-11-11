@@ -8,14 +8,46 @@ using namespace std;
 
 
 
+double Suma(int t[], double x)
+{
+	double suma = 0;
+	for (int i = 0; i < 10; i++)
+	{
+		double sinx = 0;
+		sinx = (1 / 3) * sin(x);
+
+		suma += sinx;
+
+	}
+	return suma;
+}
+double Iloczyn(int t[], double x, double y )
+{
+	double iloczyn = 1;
+	for (int i = 0; i < 6; i++)
+	{
+		double operacja = 0;
+		operacja = sqrt(x + 2 * y);
+		iloczyn *= operacja;
+		
+	}
+	return iloczyn;
+}
+double Potega(double x)
+{
+	double potega = 0;
+	potega = exp(3 * x + M_PI_2);
+
+	return potega;
+}
+double Wynik(double a, double b, double c)
+{
+	double wynik = 0;
+	wynik = a + b - c;
 
 
-
-
-
-
-
-
+	return wynik;
+}
 
 
 
@@ -23,47 +55,20 @@ using namespace std;
 
 int Zadanie_11_a()
 {
-	double a = 0, y = 0;
+	double x = 0, y = 0;
 
-	long double wynik = 0;
+	int tablica[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	int tablica2[6] = { 3,2,1,0,-1,-2 };
 
 	cout << " Witaj w zadaniu 11. a. " << endl
 		<< " Podaj pierwsza liczbe: ";
-	cin >> a;
+	cin >> x;
 
 	cout << " Podaj druga liczbe: ";
 	cin >> y;
 
-	double suma = 0, potega = 0;
-	double iloczyn = 1;
-	for (int i = 1; i <= 10; i++)
-	{
-		double sinx = 0;
-		sinx = (1 / 3) * sin(a);
-		//cout << (1 / 3) * sin(a) << endl;
-		//cout << sin(x) << endl;
-		//cout << sinx << endl;
-		suma += sinx;
-		//cout << " >>> suma = " << suma << endl;
-	}
-	for (int i = 3; i >= -2; i--)
-	{
-		double operacja = 0;
-		operacja = sqrt(a + 2 * y);
-		iloczyn *= operacja;
-		//cout << iloczyn << endl;
-	}
-
-	potega = exp(3 * a + M_PI_2);
-
-	wynik = suma + iloczyn - potega;
-
-	//cout << " >>>>>>> iloczyn = " << iloczyn << endl;
-	//cout << " >>>>> suma = " << suma << endl;
-	cout << wynik << endl;
-	
-
-
+	cout << " Wynik tego rownania rowna sie "
+		<< Wynik(Suma(tablica, x), Iloczyn(tablica2, x, y), Potega(x)) << endl << endl;
 
 	//system("pause");
 	return 0;

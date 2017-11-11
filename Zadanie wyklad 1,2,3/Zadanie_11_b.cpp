@@ -40,17 +40,6 @@ double wynik(double a, double b)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 int Zadanie_11_b()
 {
 	double x = 0, y = 0;
@@ -65,8 +54,9 @@ int Zadanie_11_b()
 	int tablica1[4] = { -1,-2,-3,-4 };
 	int tablica2[8] = { 10,9,8,7,6,5,4,3 };
 
-	cout << wynik(dodawanie(tablica1, x), Iloczyn(tablica2, x)) << endl;
+	cout << " Wynik tego rownania rowna sie "
+		<< wynik(dodawanie(tablica1,x ) , Iloczyn(tablica2, x )) << endl << endl;
 	
-	system("pause");
+	//system("pause");
 	return 0;
 }
