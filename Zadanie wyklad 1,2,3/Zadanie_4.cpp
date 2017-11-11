@@ -10,10 +10,13 @@ int Zadanie_4()
 {
 	float x, y;
 	double f1, f2, f3, f4, f5;
-	cout << " Bedziemy obliczac z podanych wzorow domowych dzieki wpisywaniu dwoch liczb z klawiatury" << endl
+
+	cout << endl;
+	cout << " Bedziemy obliczac z podanych wzorow domowych dzieki wpisywaniu dwoch liczb z klawiatury" << endl<<endl
 		<< " Pierwsza liczba: ";
 	cin >> x;
 
+	cout << endl;
 	cout << " Druga liczba: ";
 	cin >> y;
 
@@ -27,8 +30,8 @@ int Zadanie_4()
 	cout << " 4.b. " << f2 << endl;
 	cout << " 4.c. " << f3 << endl;
 	cout << " 4.d. " << f4 << endl;
-	cout << " 4.e. " << f5 << endl;
+	cout << " 4.e. " << f5 << endl << endl;
 
-	system("pause");
+	//system("pause");
 	return 0;
 }

@@ -57,13 +57,16 @@ int Zadanie_11_a()
 	int tablica[10] = { 1,2,3,4,5,6,7,8,9,10 };
 	int tablica2[6] = { 3,2,1,0,-1,-2 };
 
+	cout << endl;
 	cout << " Witaj w zadaniu 11. a. " << endl
 		<< " Podaj pierwsza liczbe: ";
 	cin >> x;
 
+	cout << endl;
 	cout << " Podaj druga liczbe: ";
 	cin >> y;
 
+	cout << endl;
 	cout << " Wynik tego rownania rowna sie "
 		<< Wynik(Suma(tablica, x), Iloczyn(tablica2, x, y), Potega(x)) << endl << endl;
 

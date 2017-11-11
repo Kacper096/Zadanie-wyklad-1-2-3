@@ -54,6 +54,7 @@ void Zadanie_6_a()
 	long long liczba;
 	int hex = 16;
 
+	cout << endl;
 	cout << " Podaj liczbe ktora chcesz zmienic na system szesnastkowy ";
 	cin >> liczba;
 	cout << " Ta liczba to ";

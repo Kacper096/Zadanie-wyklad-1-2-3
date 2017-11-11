@@ -13,6 +13,8 @@ void Zadanie_5_b()
 		c = (-15);
 
 	float d, x1, x2, x0;
+
+	cout << endl;
 	cout << " Witam tutaj bede obliczal drugi trojmian z zadania domowego nr.5.b" << endl;
 
 	d = pow(b, 2) - 4 * a*c;

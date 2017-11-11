@@ -10,7 +10,7 @@ void Zadanie_9()
 	float suma = 0;
 	float liczba = 0;
 	//cin >> liczba;
-
+																								////Do Poprawki/////
 	do {
 		
 		for (int i = 1; i <= 2; i++)
@@ -46,6 +46,6 @@ void Zadanie_9()
 		//cout << suma << endl;
 	} while (liczba != -111);
 	
-		cout << " Koniec zabawy" << endl;
-		system("pause");
+	cout << " Koniec zabawy w numerze 9 ;)" << endl << endl;
+		//system("pause");
 }

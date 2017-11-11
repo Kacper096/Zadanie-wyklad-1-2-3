@@ -33,6 +33,7 @@ void Zadanie_6_b()
 	long long liczba;
 	int oct = 8;
 
+	cout << endl;
 	cout << " Podaj liczbe ktora chcesz zmienic na system osemkowy ";
 	cin >> liczba;
 	cout << " Ta liczba to ";
@@ -43,8 +44,8 @@ void Zadanie_6_b()
 
 	else
 		change(liczba, oct);
-	cout << endl;
+	cout << endl << endl;
 
-	system("pause");
+	//system("pause");
 	//return 0;
 }

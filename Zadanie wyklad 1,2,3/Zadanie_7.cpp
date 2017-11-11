@@ -13,6 +13,7 @@ int Zadanie_7()
 	long int rozmiar;
 	long int suma = 0;
 
+	cout << endl;
 	cout << " Tutaj bede zliczal liczby nieparzyste do danej liczby ustalonej przez Ciebie. Liczby musza byc calkowite !. " << endl
 		<< " Podaj liczbe: ";
 
@@ -30,10 +31,10 @@ int Zadanie_7()
 
 
 	cout << " Wynik tej sumy rowna sie ";
-	cout << suma << endl;
+	cout << suma << endl << endl;
 
 
-	system("pause");
+	//system("pause");
 
 	return 0;
 }

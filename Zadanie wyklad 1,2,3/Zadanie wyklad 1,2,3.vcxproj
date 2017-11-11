@@ -160,6 +160,9 @@
     <ClCompile Include="Zadanie_11_a.cpp" />
     <ClCompile Include="Zadanie_11_b.cpp" />
     <ClCompile Include="Zadanie_11_c.cpp" />
+    <ClCompile Include="Zadanie_12_a.cpp" />
+    <ClCompile Include="Zadanie_12_b.cpp" />
+    <ClCompile Include="Zadanie_12_c.cpp" />
     <ClCompile Include="Zadanie_2.cpp" />
     <ClCompile Include="Zadanie_3.cpp" />
     <ClCompile Include="Zadanie_4.cpp" />

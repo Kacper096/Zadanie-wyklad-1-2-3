@@ -57,18 +57,20 @@ int Zadanie_11_c()
 	int Tablica2[6] = { 1,0,-1,-2,-3,-4 };
 	int Tablica3[4] = { -1,-2,-3,-4 };
 
+	cout << endl;
 	cout << " Witaj w zadaniu nr.11.c." << endl
 		<< " Podaj pierwsza liczbe: ";
 	cin >> x;
 
+	cout << endl;
 	cout << " Podaj druga liczbe: ";
 	cin >> y;
 
 	
-
+	cout << endl;
 	cout << " Wynik tego rownania rowna sie "
 		<< wynik(Iloczyn1(Tablica1, x, y), Iloczyn2(Tablica2, x, y), Suma(Tablica3, x, y)) << endl << endl;
 
-	system("pause");
+	//system("pause");
 	return 0;
 }

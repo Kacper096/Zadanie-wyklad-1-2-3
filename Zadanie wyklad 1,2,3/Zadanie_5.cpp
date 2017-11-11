@@ -13,6 +13,7 @@ void Zadanie_5_a()
 		c = (-12);
 	int d, x1, x2;
 
+	cout << endl;
 	cout << " Witaj tutaj bede obliczal pierwszy trojmiany kwadratowy z zadania domowego nr.5.a" << endl;
 
 	d = pow(b, 2) - 4 * a*c;

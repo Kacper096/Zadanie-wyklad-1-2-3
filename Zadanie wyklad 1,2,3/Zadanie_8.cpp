@@ -9,6 +9,7 @@ int Zadanie_8()
 	int liczba;
 	long float suma = 0;
 
+	cout << endl;
 	cout << " Tutaj bede dodawal 5 liczb, ale tylko parzyste. Jednak mozesz tez wpisywac nieparzyste. " << endl;
 
 	
@@ -24,9 +25,9 @@ int Zadanie_8()
 		}
 	
 
-	cout << " Suma liczb parzystych wynosi: "
-		<< suma << endl;
-	system("pause");
+		cout << " Suma liczb parzystych wynosi: "
+			<< suma << endl << endl;
+	//system("pause");
 
 
 	return 0;

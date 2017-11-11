@@ -41,16 +41,19 @@ int Zadanie_11_b()
 {
 	double x = 0, y = 0;
 	
+	cout << endl;
 	cout << " Witaj w zadaniu nr.11.b. " << endl
 		<< " Podaj pierwsza liczbe: ";
 	cin >> x;
 
+	cout << endl;
 	cout << " Podaj druga liczbe: ";
 	cin >> y;
 
 	int tablica1[4] = { -1,-2,-3,-4 };
 	int tablica2[8] = { 10,9,8,7,6,5,4,3 };
 
+	cout << endl;
 	cout << " Wynik tego rownania rowna sie "
 		<< wynik(dodawanie(tablica1,x ) , Iloczyn(tablica2, x )) << endl << endl;
 	

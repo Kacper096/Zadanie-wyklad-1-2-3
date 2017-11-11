@@ -12,6 +12,7 @@ void Zadanie_5_c()
 		c = 4;
 	float d, x0;
 
+	cout << endl;
 	cout << " Witaj tutaj bede obliczal trzeci trojmian z zadania domowego nr.5.c" << endl;
 
 	d = pow(b, 2) - 4 * a*c;
@@ -20,7 +21,7 @@ void Zadanie_5_c()
 	{
 		x0 = ((-b) / (2 * a));
 		cout << " Wynik tego trojmianu jest tylko jeden " << endl
-			<< " X0 = " << x0 << endl;
+			<< " X0 = " << x0 << endl << endl;
 
 	}
 
