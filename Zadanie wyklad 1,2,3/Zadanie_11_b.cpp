@@ -31,10 +31,7 @@ double Iloczyn(int t[], double x)
 }
 double wynik(double a, double b)
 {
-	double operacja = 0;
-	operacja = a + b;
-	
-	return operacja;
+	return a + b;
 }
 
 

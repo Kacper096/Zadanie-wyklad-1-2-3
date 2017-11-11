@@ -42,11 +42,8 @@ double Potega(double x)
 }
 double Wynik(double a, double b, double c)
 {
-	double wynik = 0;
-	wynik = a + b - c;
 
-
-	return wynik;
+	return a + b - c;
 }
 
 

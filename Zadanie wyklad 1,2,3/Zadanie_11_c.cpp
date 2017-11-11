@@ -28,24 +28,20 @@ double Iloczyn2(int t[], double x, double y)
 	}
 	return iloczyn2;
 }
-double Iloczyn3(int t[], double x, double y)
+double Suma(int t[], double x, double y)
 {
-	double iloczyn3 = 1;
+	double suma = 0;
 	for (int i = 0; i < 4; i++)
 	{
 		double operacja = 0;
-		operacja = tan(t[i]);
-		iloczyn3 *= operacja;
+		operacja = tan(t[i]) + x;
+		suma += operacja;
 	}
-	return iloczyn3;
+	return suma ;
 }
 double wynik(double a, double b, double c)
 {
-	double operacja = 0;
-	operacja = a + b + c;
-
-
-	return operacja;
+	return a - b - c;
 }
 
 
@@ -71,7 +67,7 @@ int Zadanie_11_c()
 	
 
 	cout << " Wynik tego rownania rowna sie "
-		<< wynik(Iloczyn1(Tablica1, x, y), Iloczyn2(Tablica2, x, y), Iloczyn3(Tablica3, x, y)) << endl << endl;
+		<< wynik(Iloczyn1(Tablica1, x, y), Iloczyn2(Tablica2, x, y), Suma(Tablica3, x, y)) << endl << endl;
 
 	system("pause");
 	return 0;
