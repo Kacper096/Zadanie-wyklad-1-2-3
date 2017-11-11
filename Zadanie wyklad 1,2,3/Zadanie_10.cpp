@@ -16,8 +16,9 @@ void Funkcja( int t1[])
 	{
 		f = (1 / 4) * sqrt(t1[i] + 2) - exp(3 * t1[i] + M_PI_2);
 
-		cout << " Dla x = " << t1[i] << " Wynik = ";
-		cout << f << endl;
+		//cout << " Dla x = " << t1[i] << " Wynik = ";
+		//cout << f << endl;
+		cout << t1[i] << endl;
 	}
 }
 
@@ -29,7 +30,7 @@ void Funkcja( int t1[])
 
 void Zadanie_10()
 {
-	int t1[11] = { 1,2,3,4,5,6,7,8,9,10 };
+	int t1[10] = { 1,2,3,4,5,6,7,8,9,10 };
 
 	Funkcja(t1);
 	system("pause");

@@ -13,3 +13,5 @@ int Zadanie_7();
 int Zadanie_8();
 void Zadanie_9();
 void Zadanie_10();
+int Zadanie_11_a();
+int Zadanie_11_b();
