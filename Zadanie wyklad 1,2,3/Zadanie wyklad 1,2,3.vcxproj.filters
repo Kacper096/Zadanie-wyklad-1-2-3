@@ -65,9 +65,6 @@
     <ClCompile Include="Zadanie_8.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="Zadanie_9.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
     <ClCompile Include="Zadanie_10.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
@@ -87,6 +84,9 @@
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
     <ClCompile Include="Zadanie_12_c.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Zadanie_9.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>

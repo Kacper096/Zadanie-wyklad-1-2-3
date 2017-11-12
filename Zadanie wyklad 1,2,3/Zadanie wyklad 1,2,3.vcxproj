@@ -155,6 +155,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Zadanie wyklad 1,2,3.cpp" />
+    <ClCompile Include="Zadanie_9.cpp" />
     <ClCompile Include="Zadanie_1.cpp" />
     <ClCompile Include="Zadanie_10.cpp" />
     <ClCompile Include="Zadanie_11_a.cpp" />
@@ -173,7 +174,6 @@
     <ClCompile Include="Zadanie_6_b.cpp" />
     <ClCompile Include="Zadanie_7.cpp" />
     <ClCompile Include="Zadanie_8.cpp" />
-    <ClCompile Include="Zadanie_9.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
