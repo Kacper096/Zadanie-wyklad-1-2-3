@@ -29,6 +29,7 @@ int Zadanie_7()
 		//cout << suma << endl << endl;
 	}
 
+	delete [] tablica1;
 
 	cout << " Wynik tej sumy rowna sie ";
 	cout << suma << endl << endl;
