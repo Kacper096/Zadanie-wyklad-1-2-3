@@ -24,9 +24,11 @@ int Zadanie_7()
 	for (int i = 1; i <= rozmiar; i++, a++)
 	{
 		tablica1[a] = i;
-		//cout << tablica1[a] << endl;
-		suma += tablica1[a];
-		//cout << suma << endl << endl;
+		if (i % 2 == 1)
+		{
+			suma += tablica1[a];
+		}
+		
 	}
 
 	delete [] tablica1;
