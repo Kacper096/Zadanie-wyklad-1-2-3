@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int Zadanie_8()
+void Zadanie_8()
 {
 	int liczba;
 	long float suma = 0;
@@ -34,5 +34,5 @@ int Zadanie_8()
 	//system("pause");
 
 
-	return 0;
+	//return 0;
 }

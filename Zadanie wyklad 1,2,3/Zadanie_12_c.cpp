@@ -32,7 +32,7 @@ double wynik(int t[], int t2[], int t3[], double x, double y)
 	return Wynik;
 }
 
-int Zadanie_12_c()
+void Zadanie_12_c()
 {
 	double x = 0, y = 0;
 	int Tablica[3] = { -3,-4,-5 };						//t
@@ -54,5 +54,5 @@ int Zadanie_12_c()
 
 	//system("pause");
 
-	return 0;
+	//return 0;
 }

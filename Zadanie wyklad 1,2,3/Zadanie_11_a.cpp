@@ -50,7 +50,7 @@ double Wynik(double a, double b, double c)
 
 
 
-int Zadanie_11_a()
+void Zadanie_11_a()
 {
 	double x = 0, y = 0;
 
@@ -71,6 +71,6 @@ int Zadanie_11_a()
 		<< Wynik(Suma(tablica, x), Iloczyn(tablica2, x, y), Potega(x)) << endl << endl;
 
 	//system("pause");
-	return 0;
+	//return 0;
 
 }

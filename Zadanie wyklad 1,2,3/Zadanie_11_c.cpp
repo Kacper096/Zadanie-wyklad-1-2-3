@@ -49,7 +49,7 @@ double wynik(double a, double b, double c)
 
 
 
-int Zadanie_11_c()
+void Zadanie_11_c()
 {
 	double x = 0, y = 0;
 
@@ -72,5 +72,5 @@ int Zadanie_11_c()
 		<< wynik(Iloczyn1(Tablica1, x, y), Iloczyn2(Tablica2, x, y), Suma(Tablica3, x, y)) << endl << endl;
 
 	//system("pause");
-	return 0;
+	//return 0;
 }

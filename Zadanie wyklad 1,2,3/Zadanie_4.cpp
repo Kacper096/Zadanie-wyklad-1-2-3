@@ -6,7 +6,7 @@
 using namespace std;
 
 
-int Zadanie_4()
+void Zadanie_4()
 {
 	float x, y;
 	double f1, f2, f3, f4, f5;
@@ -33,5 +33,5 @@ int Zadanie_4()
 	cout << " 4.e. " << f5 << endl << endl;
 
 	//system("pause");
-	return 0;
+	//return 0;
 }

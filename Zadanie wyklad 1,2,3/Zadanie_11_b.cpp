@@ -37,7 +37,7 @@ double wynik(double a, double b)
 
 
 
-int Zadanie_11_b()
+void Zadanie_11_b()
 {
 	double x = 0, y = 0;
 	
@@ -58,5 +58,5 @@ int Zadanie_11_b()
 		<< wynik(dodawanie(tablica1,x ) , Iloczyn(tablica2, x )) << endl << endl;
 	
 	//system("pause");
-	return 0;
+	//return 0;
 }

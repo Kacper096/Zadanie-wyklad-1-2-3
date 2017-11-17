@@ -27,7 +27,7 @@ double Suma(int t1[], int t2[], double x, double y)
 }
 
 
-int Zadanie_12_a()
+void Zadanie_12_a()
 {
 	double x = 0, y = 0;
 
@@ -49,5 +49,5 @@ int Zadanie_12_a()
 	cout << Suma(tablica2, tablica, x, y) << endl << endl;
 
 	//system("pause");
-	return 0;
+	//return 0;
 }

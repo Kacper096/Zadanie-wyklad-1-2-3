@@ -38,7 +38,7 @@ double Wynik2(double a, double b, double c)
 	return a + b + c;
 }
 
-int Zadanie_12_b()
+void Zadanie_12_b()
 {
 	
 	double x = 0;
@@ -61,5 +61,5 @@ int Zadanie_12_b()
 	cout << Wynik2(Suma2(tablica1, tablica2, x, y), Logarytm(x, y), Pierwiastek(x, y)) << endl << endl;
 
 	//system("pause");
-	return 0;
+	//return 0;
 }

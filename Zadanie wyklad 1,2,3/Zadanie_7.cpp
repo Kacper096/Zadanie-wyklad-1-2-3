@@ -7,7 +7,7 @@ using namespace std;
 
 
 
-int Zadanie_7()
+void Zadanie_7()
 {
 	int a = 0;
 	long int rozmiar;
@@ -39,5 +39,5 @@ int Zadanie_7()
 
 	//system("pause");
 
-	return 0;
+	//return 0;
 }
